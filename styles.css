@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+  background-color: #F0F0F0;
+  margin: auto;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #181818;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #181818;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.15em;
+  color: #181818;
+  font-family: Arial, Helvetica, sans-serif; 
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #6B8DF2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius:100px;
+}
+
+.buttonContainer {
+  padding: 5% 0;
+}
+
+
+#header {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 2%;
+}
+
+#navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navItem {
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.topHeroSection {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 5% 2%;
+  align-items: center;
+}
+
+.topHeroRight {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.heroImage {
+  width:100%;
+}
+
+.footer {
+  background-color: #181818;
+  padding: 5% 2%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.flexItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footerText {
+  color: #F0F0F0;
+}
